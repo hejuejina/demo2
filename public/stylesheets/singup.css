@@ -1,0 +1,138 @@
+body{
+    background-color: #e1e1e1;
+}
+#main {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 960px;
+    margin: 15px auto;
+    min-height: 400px;
+ 
+}
+#content {
+    padding: 0;
+    margin-right: 305px;
+}
+.panel {
+    margin-bottom: 13px;
+    background-color: #fff;
+}
+.panel .header {
+    padding: 6px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.breadcrumb {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: 0 0;
+}
+
+.breadcrumb>li {
+    text-shadow: none;
+    display: inline-block;;
+}
+.breadcrumb > .active {
+    color: #999999;
+    margin-left: 2px;
+}
+.breadcrumb > li > .divider {
+    padding: 0 5px;
+    color: #ccc;
+}
+.breadcrumb a {
+    color: #80bd01;
+}
+
+.panel .inner {
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+.panel .inner>form.form-horizontal {
+    margin-top: 40px;
+}
+
+.form-horizontal .control-group {
+    margin-bottom: 15px;
+    height:30px;
+}
+.form-horizontal .controls {
+    margin-left: 180px;
+    /* height:30px; */
+}
+.form-horizontal .controls .input-xlarge{
+    /* 消除屎黄色的东西 */
+    -webkit-box-shadow: 0 0 0px 100px white inset ; 
+}
+.form-horizontal .control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.controls .span-info {
+    display: inline-block;
+    float: none;
+    padding: 7px 10px;
+    border: none;
+    margin: 0;
+    font-size: px;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
+    box-shadow: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #5bc0de;
+}
+.span-primary {
+    margin-top: 5px;
+    border-radius: 3px;
+    color:#fff;
+    padding:6px 10px;
+    letter-spacing: 2px;
+    background-color: #08c;
+    border:1px solid #08c;
+}
+.form-horizontal .form-actions{
+    background-color: #fff;
+    border-top:0px solid #fff;
+}
+
+
+/* 登录界面右侧边栏 */
+#sidebar {
+    width: 290px;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#sidebar .header {
+    color: #51585c;
+    border-radius: 3px 3px 0 0;
+}
+.header .col_fade {
+    color: #444;
+}
+.panel .inner {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+.inner ul li {
+    padding:2px 0;
+}
+.inner #target{
+    height:30px;
+}
+
+/* input:-webkit-autofill, */
+/* textarea:-webkit-autofill, */
+/* select:-webkit-autofill { */
+    /* 去掉屎黄色的东西，但这种方法会闪烁 */
+    /* -webkit-box-shadow: 0 0 0 1000px white inset; */
+/* } */
+

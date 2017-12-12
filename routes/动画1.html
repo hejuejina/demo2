@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .flip-container {
+	perspective: 1000;
+    }
+	
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+.front{
+   animation: gogogo 3s infinite;
+}
+.back{
+    animation: back 3s infinite;
+}
+
+.flipper {
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	/* backface-visibility: hidden; */
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+}
+
+
+.back {
+	transform: rotateY(180deg);
+}
+@keyframes gogogo {
+    0%{  
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+     transform: rotateY(360deg);
+    }
+}
+@keyframes back {
+    0%{  
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(-180deg);
+    }
+    100%{
+     transform: rotateY(-360deg);
+    }
+}
+    </style>
+</head>
+<body>
+        <div class="flip-container" >
+                <div class="flipper">
+                    <div class="front">
+                            <img src="//o4j806krb.qnssl.com/public/images/cnodejs_light.svg">
+                    </div>
+                    <div class="back">
+                            <img src="//o4j806krb.qnssl.com/public/images/cnodejs_light.svg">
+                    </div>
+                </div>
+            </div>
+</body>
+</html>

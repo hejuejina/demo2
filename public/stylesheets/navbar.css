@@ -1,0 +1,161 @@
+.navbar {
+    margin-bottom: 0;
+    z-index: 9;
+    width: 100%;
+    position: relative;
+    background: #444;
+    font-size: 13px;
+}
+.navbar-inner {
+    background: 0 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    min-height: 40px
+}
+.navbar .container {
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.navbar .brand {
+    width: 120px;
+    padding: 3px 20px;
+    height: 28px;
+}
+.navbar .brand {
+    display: block;
+    float: left;
+    margin-top: -3px;
+    padding: 6px 20px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #777;
+    text-shadow: 0 1px 0 #fff;
+}
+.navbar .search-query {
+    background: url(../images/search.png) 4px 4px no-repeat #888;
+    padding: 3px 5px 3px 22px;
+    color: #666;
+    border: 0;
+    margin-top: 3px;
+    transition: all .5s;
+}
+
+/* 右边的文字 */
+.navbar .nav {
+    position: relative;
+    left: 0;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.navbar .nav>li>a {
+    text-shadow: none;
+    color: #ccc;
+}
+.navbar .nav>li>a:hover{
+    color:#fff;
+}
+
+
+
+/* 首页样式 */
+
+/* 1.链接的样式 */
+.topic-tab.current-tab {
+    background-color: #80bd01;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+
+.topic-tab {
+    margin: 0 10px;
+    color: #80bd01;
+}
+
+/* 话题列表样式 */
+
+.panel .cell:nth-child(1) {
+    border-top: none;
+}
+.panel .cell {
+    padding-right: 10px;
+    background: #fff;
+    border-top: 1px solid #f0f0f0;
+}
+
+.cell {
+    position: relative;
+    padding: 10px 0 18px 10px;
+    font-size: 14px;
+}
+
+.cell .reply_count {
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    padding-top:5px; 
+}
+
+#no-padding{
+    margin-top:0 ;
+    padding: 0;
+}
+/* 左侧头像 */
+.user_avatar img, .user_big_avatar img {
+    width: 30px;
+    height: 30px;
+    /* vertical-align: baseline; */
+    border-radius: 3px;
+}
+
+.cell .count_of_replies {
+    color: #9e78c0;
+}
+
+.cell .count_seperator {
+    margin: 0px -3px;
+    font-size: 10px;
+}
+
+.cell .count_of_visits {
+    font-size: 12px;
+    color: #b4b4b4;
+}
+.put_good, .put_top {
+    background: #80bd01;
+    padding: 4px 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+}
+#topic_list a.topic_title {
+    color: #333;
+    font-size: 16px;
+    padding-left:2px; 
+}
+/* 右侧链接 */
+.panel .inner a {
+    color: #778087;
+}
+.last_time .user_small_avatar {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: .5em;
+    border-radius: 3px;
+}
+
+/* 分页器 */
+.pagination {
+    height: 40px;
+    margin: 10px 0 0 10px;
+}
